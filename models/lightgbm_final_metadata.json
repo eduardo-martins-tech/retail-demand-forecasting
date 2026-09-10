@@ -1,0 +1,33 @@
+{
+    "model": "LightGBM — ajustado",
+    "objective": "regression",
+    "best_iteration": 632,
+    "mae": 1.0350366331680052,
+    "rmse": 1.9973556630651887,
+    "features": [
+        "item_id",
+        "store_id",
+        "lag_1",
+        "lag_7",
+        "lag_14",
+        "lag_28",
+        "wday",
+        "weekday",
+        "month",
+        "year",
+        "week_of_year",
+        "snap_CA",
+        "snap_TX",
+        "snap_WI",
+        "snap",
+        "event_name_1",
+        "event_type_1",
+        "event_name_2",
+        "event_type_2",
+        "day_num",
+        "_day_num",
+        "rolling_mean_7",
+        "rolling_mean_14",
+        "rolling_mean_28"
+    ]
+}
